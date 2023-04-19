@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="sticky top-0 mx-auto flex w-full max-w-7xl items-center justify-between bg-white px-8 sm:px-12">
       <Link href="/">
-        <Image src="/logo.png" width={50} height={50} alt="Cupid AI" className="-ml-6 h-24 w-auto" />
+        <Image src="/logo1.png" width={150} height={50} alt="Cupid AI" className="-ml-6 h-24 w-auto" />
       </Link>
       <div className="space-x-4">
         <Link

@@ -47,8 +47,10 @@ function generatePrompt(word: string) {
 
 word: Heart
 Names: Are you a cardiologist? Because you just stole my heart with your smile.
+
 word: Face
 Names: Excuse me, do you have a map? I keep getting lost in your eyes.
+
 word: Book
 Names: Do you know what my favorite book is? It's the one with your phone number in it.
 
@@ -102,6 +104,7 @@ Names: If beauty was a canvas, you'd be a masterpiece.
 
 word: Wine
 Names: If you were a bottle of wine, you'd be aged to perfection and worth every penny.
+
 Word: ${capitalizedWord}
 Names:`;
 }

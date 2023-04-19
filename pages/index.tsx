@@ -7,7 +7,7 @@ const Home = () => {
   return ( 
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Cupid AI</title>
         <link rel="icon" href="/logo.png" />
       </Head>
 
