@@ -3,11 +3,13 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <nav className="sticky top-0 mx-auto flex w-full max-w-7xl items-center justify-between bg-white px-8 sm:px-12">
-      <Link href="/">
-        <Image src="/logo1.png" width={150} height={50} alt="Cupid AI" className="-ml-6 h-24 w-auto" />
-      </Link>
-      <div className="space-x-4">
+    <nav className="top-0 py-8 lg:py-0 mx-auto flex flex-wrap w-full max-w-7xl items-center place-content-center justify-between bg-white px-4 sm:py-8">
+      <div className="w-full sm:w-auto mb-4 sm:mb-0 flex justify-center">
+        <Link href="/">
+          <Image src="/logo1.png" width={150} height={50} alt="Cupid AI" className="h-24 w-auto" />
+        </Link>
+      </div>
+      <div className="w-full sm:w-auto text-center sm:text-left flex justify-center sm:justify-end">
         <Link
           data-tip="Github Repository"
           href="https://github.com/pushkarraj7"

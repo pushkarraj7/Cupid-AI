@@ -61,7 +61,7 @@ const Card: React.FC<CardProps> = ({ text }) => {
   return (
     <section className="flex h-[25rem] min-h-full w-full items-center justify-center rounded-[20px] bg-primary px-8 py-6 text-white shadow-lg shadow-brand/50">
       <div className="flex h-full w-full flex-col justify-between">
-        <p className="my-auto text-white text-2xl font-bold">{text}</p>
+        <p className="my-auto text-white lg:text-2xl sm:text-sm  font-bold ">{text}</p>
         <div className="mt-8 flex items-center justify-between">
           <div className="space-x-2">
             <button

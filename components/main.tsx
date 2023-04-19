@@ -64,8 +64,8 @@ const Main = () => {
 
   return (
     <>
-      <div className="mt-16 px-32 wrapper grid h-full w-full flex-1 gap-16 py-8 lg:grid-cols-2">
-        <Card text={result}/>
+      <div className="mt-8 lg:mt-16 lg:mb-16 px-4 lg:px-32 wrapper grid h-full lg:w-full flex-1 gap-16 lg:py-4 lg:grid-cols-2">
+        <Card text={result} />
         <section className="flex flex-col justify-center gap-4">
           <form className="space-y-2" onSubmit={onSubmit}>
             <div>
@@ -92,7 +92,7 @@ const Main = () => {
           </form>
           <fieldset className="border-t border-black">
             <legend className="mx-auto px-4 py-4 text-2xl">OR</legend>
-            <button 
+            <button
               className="btn text-white py-4 rounded-[20px] hover:bg-primaryDarker bg-primary w-full"
               onClick={onSurpriseMe}
             >
