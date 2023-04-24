@@ -4,18 +4,22 @@ import Head from "next/head";
 import Main from "../components/main";
 
 const Home = () => {
-  return ( 
-    <div>
+  return (
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>Cupid AI</title>
         <link rel="icon" href="/logo.png" />
       </Head>
+      <Header />
+      <div className="flex-1">
+        <Main />
+      </div>
 
-      <Header/>
-      <Main />
-      <Footer/>
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </div>
-   );
-}
- 
+  );
+};
+
 export default Home;

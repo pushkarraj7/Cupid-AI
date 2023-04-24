@@ -7,6 +7,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
+
 interface CardProps {
   text: string;
 }
@@ -38,6 +42,16 @@ const Card: React.FC<CardProps> = ({ text }) => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(text);
+    toast.success("Copied to clipboard", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
 
   const handleFacebookShare = () => {
